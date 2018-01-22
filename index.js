@@ -3,25 +3,25 @@
 function shout(string) {
   return string.toUpperCase()
 }
-
+shout()
 /*  whisper(string) receives one argument and returns it in all lowercase:
     ReferenceError: whisper is not defined*/
 function whisper(string) {
   return string.toLowerCase()
 }
-
+whisper()
 /*  logShout(string) calls console.log() its one argument in all caps:
     ReferenceError: logShout is not defined */
 function logShout(string) {
   return string.toUpperCase
 }
-
+logShout()
 /*  logWhisper(string) calls console.log() its one argument in all lowercase:
     ReferenceError: logWhisper is not defined */
 function logWhisper(string) {
     return string.toLowerCase
 }
-
+logWhisper()
 /*  sayHiToGrandma(string) returns "I can't hear you!" if `string` is lowercase:
     ReferenceError: sayHiToGrandma is not defined
 
@@ -38,4 +38,5 @@ function logWhisper(string) {
   } else if(string === "I love you, Grandma.") {
     return "I love you, too."
   }
+  sayHiToGrandma()
 }
